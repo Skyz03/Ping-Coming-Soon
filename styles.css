@@ -19,6 +19,24 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20vh;
+}
+
+.site-title {
+  font-weight: 300;
+  margin: 10vh 0 5vh 0;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.site-text {
+  text-align: center;
+}
+
+.email-input {
+  margin: 5vh 0 10vh 0;
 }
 
 .attribution {
