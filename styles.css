@@ -45,11 +45,11 @@ nav {
 
 .email-input {
   margin: 5vh 0 10vh 0;
-  width: 120vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  width: 150vh;
 }
 
 .emailz {
@@ -59,7 +59,12 @@ nav {
 }
 
 .notify-btn {
-  padding: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: var(--Blue);
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .attribution {
