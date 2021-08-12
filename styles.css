@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
 
+:root {
+  --Blue: hsl(223, 87%, 63%);
+  --Pale-Blue: hsl(223, 100%, 88%);
+  --Light-Red: hsl(354, 100%, 66%);
+  --Gray: hsl(0, 0%, 59%);
+  --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +45,7 @@ nav {
 
 .email-input {
   margin: 5vh 0 10vh 0;
+  width: 120vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -47,6 +56,10 @@ nav {
   padding: 1rem 5rem;
   border-radius: 5rem;
   border: 1px solid;
+}
+
+.notify-btn {
+  padding: 2rem;
 }
 
 .attribution {
