@@ -69,6 +69,11 @@ body {
   box-shadow: hsl(222.4, 45.9%, 78.2%) 0 3px 7px 0px;
 }
 
+.notify-btn:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
 .hero-image {
   width: 50%;
 }
@@ -80,6 +85,14 @@ body {
 .icon {
   margin: 0 1.5rem;
   color: var(--Blue);
+  padding: 1rem;
+}
+
+.icon:hover {
+  background-color: var(--Blue);
+  color: #fff;
+  border-radius: 5rem;
+  cursor: pointer;
 }
 
 .copyright {
