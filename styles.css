@@ -121,6 +121,10 @@ body {
 }
 
 @media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
   #main-section {
     margin: 5vh;
   }
