@@ -18,10 +18,6 @@ body {
   font-family: "Libre Franklin", sans-serif;
 }
 
-nav {
-  text-align: center;
-}
-
 #main-section {
   display: flex;
   flex-direction: column;
@@ -30,9 +26,13 @@ nav {
   margin: 10vh;
 }
 
+.logo {
+  margin-bottom: 2rem;
+}
+
 .site-title {
   font-weight: 300;
-  margin: 10vh 0 5vh 0;
+  margin: 0 0 3vh 0;
 }
 
 .bold-text {
@@ -73,7 +73,7 @@ nav {
 }
 
 .social-icons {
-  margin: 4rem 0 2rem 0;
+  margin: 4rem 0 3rem 0;
 }
 
 .icon {
