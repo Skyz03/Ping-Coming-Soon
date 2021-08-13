@@ -32,14 +32,16 @@
       <p class="site-text"> Subscribe and get notified</p>
     </div>
 
-    <div class="email-input">
+    <form action="#" class="email-input" novalidate>
+
       <div class="email-section">
-        <input class="emailz" type="email" id="email" name="email" placeholder="Your Email Address...">
-        <span id="error"></span>
+        <input class="emailz" type="email" id="email" name="email" placeholder="Your Email Address..." required
+          minlength="8">
+        <span class="error"></span>
       </div>
 
-      <button class="notify-btn"> Notify Me</button>
-    </div>
+      <button type="submit" class="notify-btn"> Notify Me</button>
+    </form>
 
 
     <img class="hero-image" src="images/illustration-dashboard.png" alt="hero-image">

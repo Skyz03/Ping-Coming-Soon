@@ -63,7 +63,12 @@ body {
   color: var(--Pale-Blue);
 }
 
-#error {
+.emailz:invalid {
+  border: 1px solid #900;
+  /* background-color: #fdd; */
+}
+
+.error {
   color: #dd6e6e;
   font-size: 0.8rem;
   position: absolute;
