@@ -93,3 +93,35 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 400px) {
+  #main-section {
+    margin: 5vh;
+  }
+
+  .site-title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .site-text {
+    font-size: 0.8rem;
+  }
+
+  .email-input {
+    flex-direction: column;
+  }
+
+  .notify-btn {
+    margin-top: 1rem;
+    padding: 1rem 8.5rem;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .social-icons {
+    margin: 5rem 0 3rem 0;
+  }
+}
