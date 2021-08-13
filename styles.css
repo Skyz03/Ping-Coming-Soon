@@ -53,9 +53,10 @@ body {
 }
 
 .emailz {
-  padding: 1rem 5rem;
+  padding: 1rem 10rem 1rem 2rem;
   border-radius: 5rem;
-  border: 1px solid;
+  border: 1px solid var(--Pale-Blue);
+  color: var(--Pale-Blue);
 }
 
 .notify-btn {
