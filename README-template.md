@@ -14,7 +14,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -55,11 +55,8 @@ My process involved simple design of the layout first and added bits of JS code 
 ### What I learned
 This was one of the quick challange where I got a quick grasp of how JS works in the Website, like JS DOM communication with HTML which relates with CSS files and gets activated once the JS codes runs.
 
-To see how you can add code snippets, see below:
+To see how you can add code snippets, see below:4
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 #error {
   color: #dd6e6e;
