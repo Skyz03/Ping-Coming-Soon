@@ -159,4 +159,8 @@ body {
   .social-icons {
     margin: 5rem 0 3rem 0;
   }
+
+  .email-input {
+    width: 21rem;
+  }
 }
