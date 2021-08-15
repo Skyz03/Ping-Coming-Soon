@@ -68,7 +68,7 @@ body {
   /* background-color: #fdd; */
 }
 
-.error {
+#error {
   color: #dd6e6e;
   font-size: 0.8rem;
   position: absolute;
@@ -148,7 +148,7 @@ body {
   }
 
   .notify-btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem 8.5rem;
   }
 
