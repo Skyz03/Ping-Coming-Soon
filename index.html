@@ -37,7 +37,7 @@
       <div class="email-section">
         <input class="emailz" type="email" id="email" name="email" placeholder="Your Email Address..." required
           minlength="8" aria-label="Email" aria-describedby="error">
-        <span id="error"></span>
+        <span aria-live="polite" id="error"></span>
       </div>
 
       <button type="submit" class="notify-btn"> Notify Me</button>
@@ -47,9 +47,9 @@
     <img class="hero-image" src="images/illustration-dashboard.png" alt="hero-image">
 
     <div class="social-icons">
-      <i class="fab fa-facebook-square icon"></i>
-      <i class="fab fa-twitter icon"></i>
-      <i class="fab fa-instagram icon"></i>
+      <a aria-label="facebook-icon" href="#"> <i class="fab fa-facebook-square icon"></i></a>
+      <a aria-label="Twitter-icon" href="#"><i class="fab fa-twitter icon"></i></a>
+      <a aria-label="instagram-icon" href="#"> <i class="fab fa-instagram icon"></i></a>
     </div>
 
     <p class="copyright"> &copy; Copyright Ping. All rights reserved.</p>

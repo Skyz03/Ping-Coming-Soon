@@ -68,6 +68,10 @@ body {
   /* background-color: #fdd; */
 }
 
+/* .emailz:focus {
+  border: 5px solid black;
+} */
+
 #error {
   color: #dd6e6e;
   font-size: 0.8rem;
